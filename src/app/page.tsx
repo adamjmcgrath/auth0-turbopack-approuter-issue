@@ -89,6 +89,19 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <a
+          href="/api/auth/login"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Login Auth0 <span>-&gt;</span>
+          </h2>
+          <p>
+            Login to Auth0.
+          </p>
+        </a>
       </div>
     </main>
   )
