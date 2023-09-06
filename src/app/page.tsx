@@ -90,7 +90,7 @@ export default function Home() {
           </p>
         </a>
         <a
-          href="/api/auth/login"
+          href="/api/test"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
